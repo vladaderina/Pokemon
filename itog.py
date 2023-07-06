@@ -17,4 +17,4 @@ def GetInfo(ID):
     except Exception as e:
         raise Exception("Покемона с таким ID нет")
 if __name__ == '__main__':
-    print(GetInfo("56"))
+    print(GetInfo("56"))  
