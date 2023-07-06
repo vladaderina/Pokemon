@@ -9,4 +9,4 @@ class CalcTest(TestCase):
             GetInfo("dd")
         self.assertEqual('Покемона с таким ID нет', e.exception.args[0])
 if __name__ == '__main__':
-    main()
+    main() 
